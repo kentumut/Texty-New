@@ -1,11 +1,12 @@
-import React from "react";
+import {Suspense, lazy, React} from "react";
 
 const GeneralApp = () => {
 
   return (
     <>
-      App
-    </>
+      <Suspense fallback="Loading...">
+        
+    </Suspense>
   );
 };
 
